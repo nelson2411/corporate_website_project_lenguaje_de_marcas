@@ -1,0 +1,143 @@
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+  color: var(--color-black);
+  font-family: var(--font-family-code);
+}
+
+.main-section-item {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+  padding: 20px 30px;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  font-family: var(--font-family-code);
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+  /* center the content */
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.main-section-item-2 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+  padding: 20px 30px;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  font-family: var(--font-family-code);
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+  /* center the content */
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.main-section-item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: var(--color-red);
+}
+
+.main-section-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: var(--color-red);
+}
+
+.main-section-item p {
+  font-size: 1rem;
+  text-align: center;
+  color: var(--color-black);
+}
+
+.main-section-item img {
+  max-width: 70%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.main-section-item-2 h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: var(--color-red);
+}
+
+.main-section-item-2 h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: var(--color-red);
+}
+
+.main-section-item-2 p {
+  font-size: 1rem;
+  text-align: center;
+  color: var(--color-black);
+}
+
+.main-section-item-2 img {
+  max-width: 70%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.sidebar-section {
+  background-color: var(--color-light-gray);
+  padding: 20px;
+}
+
+/* Sidebar styles */
+
+.sidebar-section {
+  background-color: var(--color-light-gray);
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.sidebar-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: var(--color-red);
+}
+
+.sidebar-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: var(--color-red);
+}
+
+.sidebar-section ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar-section ul li {
+  margin-bottom: 10px;
+  font-size: 1 rem;
+  color: var(--color-black);
+}
+
+.sidebar-section ul li a {
+  text-decoration: none;
+  color: var(--color-black);
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+.sidebar-section ul li a:hover {
+  color: var(--color-blue);
+  text-decoration: underline;
+}

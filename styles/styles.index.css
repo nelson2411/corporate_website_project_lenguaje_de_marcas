@@ -1,0 +1,118 @@
+/* Grid layout for content */
+
+.main-section {
+  background-color: var(--color-white);
+  padding: 20px;
+}
+
+.sidebar-section {
+  background-color: var(--color-light-gray);
+  padding: 20px;
+}
+
+.about-message {
+  font-size: 1.2rem;
+  line-height: 1.3;
+  color: var(--color-black);
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.about-message h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: var(--color-red);
+}
+
+.mission-message {
+  font-size: 1.2rem;
+  line-height: 1.3;
+  color: var(--color-black);
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.mission-message h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: var(--color-red);
+}
+
+.services-section {
+  background-color: var(--color-white);
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.services-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: var(--color-red);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 20px;
+}
+
+.services-item {
+  background-color: var(--color-light-gray);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.services-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: var(--color-red);
+}
+
+/* Sidebar styles */
+
+.sidebar-section {
+  background-color: var(--color-light-gray);
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.sidebar-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: var(--color-red);
+}
+
+.sidebar-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: var(--color-red);
+}
+
+.sidebar-section ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar-section ul li {
+  margin-bottom: 10px;
+  font-size: 1 rem;
+  color: var(--color-black);
+}
+
+.sidebar-section ul li a {
+  text-decoration: none;
+  color: var(--color-black);
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+.sidebar-section ul li a:hover {
+  color: var(--color-blue);
+  text-decoration: underline;
+}

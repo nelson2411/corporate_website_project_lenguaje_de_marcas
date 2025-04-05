@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>League of Legends Academy</title>
+    <script
+      src="https://kit.fontawesome.com/0f80bcffac.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/styles.global.css" />
+    <link rel="stylesheet" href="./styles/styles.index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>
+        Welcome to the League of Legends Academy!<br />
+        <span class="highlight">Learn, Play, and Master the Game!</span>
+      </h1>
+    </header>
+    <nav>
+      <div class="logo">
+        <img
+          src="./assets/images/lol-icon.jpg"
+          alt="League of Legends Academy Logo"
+        />
+        <h2>League of Legends Academy</h2>
+      </div>
+      <ul class="nav-list">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">Who We Are</a></li>
+        <li>
+          <select
+            id="services-select"
+            name="services"
+            onchange="location = this.value;"
+          >
+            <option value="./services.html">Services</option>
+            <option value="./courses.html">Courses</option>
+            <option value="./guides.html">Guides</option>
+            <option value="./boost.html">Boost</option>
+          </select>
+        </li>
+
+        <li><a href="./contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="content-grid-container">
+      <section class="main-section">
+        <div class="about-message">
+          <h2>About Us</h2>
+          <p>
+            We are a community of League of Legends enthusiasts dedicated to
+            helping players improve their skills and knowledge of the game. Our
+            academy offers a variety of resources, including guides, tutorials,
+            and coaching sessions, to help you become a better player.
+          </p>
+        </div>
+        <div class="mission-message">
+          <h2>Our Mission</h2>
+          <p>
+            Our mission is to provide a comprehensive learning experience for
+            League of Legends players of all skill levels. Whether you're a
+            beginner looking to learn the basics or an experienced player
+            seeking advanced strategies, we have something for you.
+          </p>
+        </div>
+        <div class="services-section">
+          <h2>Services We Offer</h2>
+          <div class="services-grid">
+            <div class="services-item">
+              <h3>Courses <i class="fa-solid fa-glasses"></i></h3>
+              <p>
+                Our courses cover a wide range of topics, including champion
+                guides, item builds, runes, and game modes. Each course is
+                designed to help you understand the fundamentals of the game and
+                improve your gameplay.
+              </p>
+            </div>
+            <div class="services-item">
+              <h3>Boosts <i class="fa-solid fa-rocket"></i></h3>
+              <p>
+                For a decent fee, one playe of our academy will play with you in
+                ranked games to help you improve your skills and climb the
+                ranks. Our boosters are experienced players who know the ins and
+                outs of the game.
+              </p>
+            </div>
+            <div class="services-item">
+              <h3>Guides <i class="fa-solid fa-book"></i></h3>
+              <p>
+                Our guides provide in-depth information on champions, items,
+                runes, and game modes. Each guide is designed to help you
+                understand the strengths and weaknesses of each champion and how
+                to build them effectively.
+              </p>
+            </div>
+            <div class="services-item">
+              <h3>News <i class="fa-regular fa-newspaper"></i></h3>
+              <p>
+                Stay up to date with the latest news and updates from the League
+                of Legends community. We provide regular updates on patch notes,
+                champion changes, and upcoming events.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <aside class="sidebar-section">
+        <h2>Latest News</h2>
+        <h3>Links to external resources</h3>
+        <ul class="external-resources">
+          <li>
+            <a href="https://www.leagueoflegends.com/en-us/"
+              >Official League of Legends Site</a
+            >
+          </li>
+          <li><a href="https://www.lolesports.com/en/">LoL Esports</a></li>
+          <li><a href="https://www.mobafire.com/">MobaFire</a></li>
+          <li><a href="https://www.probuilds.net/">Probuilds</a></li>
+          <!-- League of graphs link -->
+          <li>
+            <a href="https://www.leagueofgraphs.com/">League of Graphs</a>
+          </li>
+        </ul>
+      </aside>
+    </div>
+    <footer>
+      <p>&copy; 2023 League of Legends Academy. All rights reserved.</p>
+      <p>
+        Crafted for gamers by gamers. Join us in our quest to conquer the Rift!
+      </p>
+      <p>Follow us on social media:</p>
+      <ul class="social-media">
+        <li>
+          <a href="https://twitter.com/LeagueAcademy"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/LeagueAcademy"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/LeagueAcademy"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

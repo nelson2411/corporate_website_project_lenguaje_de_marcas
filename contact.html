@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/0f80bcffac.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/styles.global.css" />
+    <link rel="stylesheet" href="./styles/styles.contact.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Welcome to the League of Legends Academy!<br />
+        <span class="highlight">Learn, Play, and Master the Game!</span>
+      </h1>
+    </header>
+    <nav>
+      <div class="logo">
+        <img
+          src="./assets/images/lol-icon.jpg"
+          alt="League of Legends Academy Logo"
+        />
+        <h2>League of Legends Academy</h2>
+      </div>
+      <ul class="nav-list">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">Who We Are</a></li>
+        <li>
+          <select
+            id="services-select"
+            name="services"
+            onchange="location = this.value;"
+          >
+            <option value="./services.html">Services</option>
+            <option value="./courses.html">Courses</option>
+            <option value="./guides.html">Guides</option>
+            <option value="./boost.html">Boost</option>
+          </select>
+        </li>
+
+        <li><a href="./game-modes.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="content-container">
+      <section class="contact-info-section">
+        <h1>
+          Get in Touch with Us!<br />
+          <span class="highlight">We'd love to hear from you!</span>
+        </h1>
+        <p>
+          <i class="fas fa-phone-volume"></i> Call us at:
+          <strong>+1-800-555-0199</strong>
+        </p>
+        <p>
+          <i class="fas fa-envelope"></i> Email us at: info@leagueacademy.org
+          <br />
+        </p>
+        <p>
+          <i class="fas fa-map-marker-alt"></i> Visit us at:
+          <strong>123 League Lane, Summoner's Rift, Valoran</strong>
+        </p>
+      </section>
+      <section class="contact-form-section">
+        <form action="#" method="POST" class="contact-form">
+          <div class="form-row">
+            <div class="form-column">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+
+            <div class="form-column">
+              <label for="message">Your Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                required
+              ></textarea>
+            </div>
+          </div>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2023 League of Legends Academy. All rights reserved.</p>
+      <p>
+        Crafted for gamers by gamers. Join us in our quest to conquer the Rift!
+      </p>
+      <p>Follow us on social media:</p>
+      <ul class="social-media">
+        <li>
+          <a href="https://twitter.com/LeagueAcademy"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/LeagueAcademy"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/LeagueAcademy"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
