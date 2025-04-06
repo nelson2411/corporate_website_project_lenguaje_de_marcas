@@ -68,3 +68,19 @@
   background-color: var(--color-dark-blue);
   color: var(--color-white);
 }
+
+/* ===== Media Queries for Responsive Design ====== */
+
+/* Adaptation for screens of 450px and less */
+
+@media (max-width: 450px) {
+  .pricing-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+}

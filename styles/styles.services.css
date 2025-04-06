@@ -112,3 +112,100 @@
   margin-bottom: 10px;
   color: var(--color-red);
 }
+
+/* ===== Media Queries for Responsive Design ====== */
+
+/* Adaptation for screens of 450px and less */
+
+@media (max-width: 450px) {
+  .services-intro-section {
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .services-intro-section img {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .services-intro-section h2 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+  }
+
+  .services-intro-section p {
+    font-size: 1rem;
+    line-height: 1.3;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+
+  .services-section {
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr; /* One column layout */
+    gap: 10px; /* Reduced gap between items */
+  }
+  .services-item {
+    padding: 10px;
+  }
+  .services-item a {
+    padding: 5px 5px;
+  }
+  .services-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  .services-item p {
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+  .services-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  .services-item a:hover {
+    transform: scale(1.05); /* Slightly smaller scale on hover */
+  }
+  .services-item a:hover {
+    color: var(--color-blue);
+    text-decoration: underline;
+  }
+}
+
+/* adaptation for screens between 450px and 810px */
+
+@media (min-width: 450px) and (max-width: 810px) {
+  .services-intro-section {
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .services-intro-section img {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .services-intro-section h2 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+  }
+
+  .services-intro-section p {
+    font-size: 1rem;
+    line-height: 1.3;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+}

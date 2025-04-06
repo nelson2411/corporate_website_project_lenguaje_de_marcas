@@ -246,3 +246,107 @@ footer ul li {
   color: var(--color-red);
   transition: color 0.3s ease;
 }
+
+/* ===== Media Queries for Responsive Design ====== */
+
+/* Adaptation for screens of 450px and less */
+
+@media (max-width: 450px) {
+  header {
+    height: 30vh;
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 1.2rem;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 10px;
+  }
+
+  nav h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  nav .logo img {
+    display: none;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 0;
+    font-size: 1rem;
+  }
+
+  .content-grid-container {
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 10px; /* Reduced gap */
+    padding: 10px; /* Reduced padding */
+  }
+
+  footer p {
+    font-size: 0.8rem; /* Smaller font size for footer */
+  }
+
+  footer ul {
+    margin: 10px 0;
+  }
+}
+
+/* adaptation for screens between 450px and 810px */
+
+@media (min-width: 450px) and (max-width: 810px) {
+  header {
+    height: 40vh;
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav {
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    padding: 10px;
+  }
+
+  nav h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
+
+  nav .logo img {
+    display: none;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+
+    margin-right: 50px;
+    font-size: 1.2rem;
+  }
+
+  nav ul li a {
+    font-size: 1.1rem;
+  }
+
+  select {
+    font-size: 1.1rem;
+  }
+
+  .content-grid-container {
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 10px; /* Reduced gap */
+    padding: 10px; /* Reduced padding */
+  }
+}

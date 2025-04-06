@@ -141,3 +141,45 @@
   color: var(--color-blue);
   text-decoration: underline;
 }
+
+/* ===== Media Queries for Responsive Design ====== */
+
+/* Adaptation for screens of 450px and less */
+
+@media (max-width: 450px) {
+  .main-section-item {
+    grid-template-columns: 1fr;
+  }
+
+  .main-section-item-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .main-section-item img {
+    display: none;
+  }
+
+  .main-section-item-2 img {
+    display: none;
+  }
+}
+
+/* adaptation for screens between 450px and 810px */
+
+@media (min-width: 450px) and (max-width: 810px) {
+  .main-section-item {
+    grid-template-columns: 1fr;
+  }
+
+  .main-section-item-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .main-section-item img {
+    display: none;
+  }
+
+  .main-section-item-2 img {
+    display: none;
+  }
+}
