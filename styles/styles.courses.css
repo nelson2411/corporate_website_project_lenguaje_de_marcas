@@ -1,0 +1,90 @@
+.intro-courses-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 50px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: var(--color-smoke);
+}
+
+.intro-courses-section h2 {
+  font-family: var(--font-family-main);
+  font-size: 1.8rem;
+  color: var(--color-red);
+  margin-bottom: 10px;
+}
+
+.intro-courses-section p {
+  font-family: var(--font-family-code);
+  font-size: 1.1rem;
+  color: var(--text-black);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Container for all courses */
+.courses-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 20px;
+}
+
+/* Card styling */
+.course-card {
+  background-color: var(--color-smoke);
+  border-radius: 8px;
+  width: 300px;
+  margin: 15px;
+  box-shadow: 5px 14px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+
+  /* add flex to send the footer to the bottom */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.course-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.course-title {
+  font-family: var(--font-family-main);
+  font-size: 1.5rem;
+  margin: 10px;
+  color: var(--color-black);
+}
+
+.course-description {
+  font-size: 1rem;
+  margin: 10px;
+  color: var(--text-black);
+}
+
+.course-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: var(--color-red);
+  border-top: 2px solid var(--color-black);
+}
+
+.course-lessons,
+.course-duration {
+  font-size: 1rem;
+  color: var(--color-white);
+}
+
+.course-lessons i,
+.course-duration i {
+  margin-right: 5px;
+}

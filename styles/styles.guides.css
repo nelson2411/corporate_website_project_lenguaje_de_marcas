@@ -1,0 +1,62 @@
+.guides-card {
+  background-color: var(--bg-smoke);
+  color: var(--color-black);
+  padding: 2rem;
+  border-radius: 16px;
+  max-width: 800px;
+  margin: 2rem auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  font-family: var(--font-family-main);
+}
+
+.guides-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--color-red);
+}
+
+.guides-intro {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.guides-benefits {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0;
+}
+
+.guides-benefits li {
+  margin: 0.5rem 0;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.guides-benefits li::before {
+  content: "•";
+  color: var(--color-white);
+  position: absolute;
+  left: 0;
+}
+
+.guides-footer {
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: var(--color-dark-red);
+  color: var(--color-white);
+  margin: 20px 0;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: var(--color-dark-blue);
+  color: var(--color-white);
+}

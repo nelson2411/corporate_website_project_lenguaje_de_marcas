@@ -42,6 +42,8 @@
   color: var(--color-red);
 }
 
+/* Services section styles */
+
 .services-section {
   background-color: var(--color-white);
   padding: 20px;

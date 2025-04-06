@@ -33,16 +33,17 @@
           <select
             id="services-select"
             name="services"
-            onchange="location = this.value;"
+            onchange="if (this.value) location=this.value"
           >
+            <option value="" disabled selected>Pick a Service</option>
             <option value="./services.html">Services</option>
-            <option value="./courses.html">Courses</option>
-            <option value="./guides.html">Guides</option>
-            <option value="./boost.html">Boost</option>
+            <option value="/services/courses.html">Courses</option>
+            <option value="./services/guides.html">Guides</option>
+            <option value="./services/boost.html">Boost</option>
           </select>
         </li>
 
-        <li><a href="./game-modes.html">Contact Us</a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
       </ul>
     </nav>
     <div class="content-container">

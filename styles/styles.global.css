@@ -77,6 +77,7 @@ table {
   /* Optional Highlight */
   --color-light-red: #f25f5c; /* Soft Red Accent */
   --color-dark-red: #9b2226; /* Darker Red for Hover Effects */
+  --color-dark-blue: #0d3b66; /* Darker Blue for Hover Effects */
 
   /* Text Colors */
   --text-main: var(--color-black);
@@ -200,11 +201,12 @@ select {
   font-size: 1.2rem;
   transition: color 0.3s ease, transform 0.3s ease;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 select option {
   color: var(--color-black);
-
+  cursor: pointer;
   font-family: var(--font-family-code);
 }
 
