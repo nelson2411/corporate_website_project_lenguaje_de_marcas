@@ -30,3 +30,7 @@ git clone https://github.com/nelson2411/corporate_website_project_lenguaje_de_ma
 2. Open the `index.html` file in your browser.
 
 Thank you for checking out the **League of Legends Academy** project! Feel free to contribute or provide feedback.
+
+#### Proyecto creado para la asignatura Lenguaje de Marcas como parte de mi ciclo formativo en DAW | UNIR FP
+
+Enlace al proyecto: https://league-academy.netlify.app/

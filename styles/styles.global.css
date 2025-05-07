@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* ========== RESET STYLES ========== */
-/* Based on modern reset principles */
 
 *,
 *::before,
@@ -125,14 +124,14 @@ header::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
-  z-index: 1; /* Place the overlay behind the content */
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 
 header h1 {
   font-size: 2rem;
   margin: 0;
-  z-index: 2; /* Place the text above the overlay */
+  z-index: 2;
 }
 
 /* =============== NAVIGATION STYLES =============== */
@@ -146,8 +145,7 @@ nav {
   padding: 10px;
   height: 80px;
   position: relative;
-  z-index: 2; /* Place the navigation above the overlay */
-  /* add a shadow to the nav bar */
+  z-index: 2;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -172,7 +170,6 @@ nav div img {
   margin-right: 10px;
 }
 
-/* animation on hover links nav */
 nav ul li a {
   text-decoration: none;
   color: var(--color-black);
@@ -218,8 +215,8 @@ footer {
   padding: 20px;
   text-align: center;
   font-family: var(--font-family-main);
-  position: relative; /* Ensure footer is above the overlay */
-  z-index: 2; /* Place the footer above the overlay */
+  position: relative;
+  z-index: 2;
 }
 
 footer p {
@@ -285,13 +282,13 @@ footer ul li {
   }
 
   .content-grid-container {
-    grid-template-columns: 1fr; /* Single column layout */
-    gap: 10px; /* Reduced gap */
-    padding: 10px; /* Reduced padding */
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
   }
 
   footer p {
-    font-size: 0.8rem; /* Smaller font size for footer */
+    font-size: 0.8rem;
   }
 
   footer ul {
@@ -345,8 +342,8 @@ footer ul li {
   }
 
   .content-grid-container {
-    grid-template-columns: 1fr; /* Single column layout */
-    gap: 10px; /* Reduced gap */
-    padding: 10px; /* Reduced padding */
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
   }
 }
